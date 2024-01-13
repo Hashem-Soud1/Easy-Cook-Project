@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:backgroundTint="#4512"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="@dimen/_2sdp"
+        >
+
+    <ImageView
+        android:id="@+id/img_popular_meal"
+        android:layout_width="200dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_height="135dp"
+        android:scaleType="centerCrop"/>
+</androidx.cardview.widget.CardView>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="sddddd"
+    android:id="@+id/meal_name"
+    android:textSize="@dimen/_12sdp"
+    android:layout_marginLeft="@dimen/_45sdp"
+    style="@style/Theme.Material3.Dark"
+    android:visibility="gone"
+    />
+
+</LinearLayout>
+
+</layout>
