@@ -6,11 +6,13 @@ EasyFood is an app that makes making food easier and gives you full information 
 
 # Libraries and technologies used
 
-- Retrofit : making HTTP connection with the rest API and convert meal json file to Kotlin/Java object.
-- MVVM & LiveData : Saperate logic code from views and save the state in case the screen configuration changes.
-- Coroutines : do some code in the background.
-- view binding : instead of inflating views manually view binding will take care of that.
-- Navigation component : one activity contains multiple fragments instead of creating multiple activites.
+- **Retrofit** 
+- **MVVM Pattern**
+- **Repository Pattern** 
+- **Asynchronous Execution Management with Coroutines**  
+- **view binding**
+- **Navigation component**
+- **simple UI/UX**
 
 
 
