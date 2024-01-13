@@ -18,6 +18,6 @@ class MainActivity : AppCompatActivity() {
         val frag_controll=Navigation.findNavController(this,R.id.frag_host)
 
        NavigationUI.setupWithNavController(bottNav,frag_controll)
-
+//dfkbmfdbdfb
     }
 }
